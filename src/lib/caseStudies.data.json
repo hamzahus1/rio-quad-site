@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "rio-quad",
+    "title": "Rio Quad",
+    "client": "Rio Quad",
+    "year": "2026",
+    "category": "Brand / Tourism",
+    "featured": true,
+    "tagline": "Quad and buggy tours on Morocco’s Atlantic coast",
+    "heroImage": "/images/work/rio-quad/shot-01.jpg",
+    "heroFit": "cover",
+    "description": "Rio Quad runs guided ATV and buggy tours along the Tamraght coast: beach runs at golden hour, dry riverbeds inland, and group rides for visitors who want the trip without the logistics. We built the brand system and a visual story that matches the heat of the rides.",
+    "images": [
+      "/images/work/rio-quad/logo.svg",
+      "/images/work/rio-quad/shot-01.jpg",
+      "/images/work/rio-quad/shot-02.jpg",
+      "/images/work/rio-quad/shot-03.jpg",
+      "/images/work/rio-quad/shot-04.jpg",
+      "/images/work/rio-quad/shot-05.jpg",
+      "/images/work/rio-quad/shot-06.jpg",
+      "/images/work/rio-quad/shot-07.jpg",
+      "/images/work/rio-quad/shot-08.jpg",
+      "/images/work/rio-quad/shot-09.jpg",
+      "/images/work/rio-quad/shot-10.jpg",
+      "/images/work/rio-quad/shot-11.jpg",
+      "/images/work/rio-quad/shot-12.jpg"
+    ],
+    "process": [
+      "Brand identity",
+      "Visual system",
+      "Photo & video direction",
+      "Web storytelling"
+    ],
+    "outcomeMetrics": [
+      "Orange-led brand mark and lockups for fleet, flags, and digital",
+      "Photo + video kit for tours: beach, buggy, and group riverbed runs",
+      "Case study site entry with intro film first, then a four-quad image grid"
+    ],
+    "approach": "Start with the rides themselves. Capture real light on the coast, then wrap a tight orange identity around the footage so bookings, social, and the site feel like the same trip.",
+    "contentBlocks": [
+      {
+        "type": "intro",
+        "headline": "Rio Quad",
+        "subtitle": "Coastal ATV and buggy tours out of Tamraght. Sand, salt, and a clear orange mark.",
+        "tags": [
+          "Brand",
+          "Tourism",
+          "Photo",
+          "Video"
+        ]
+      },
+      {
+        "type": "video",
+        "src": "/videos/rio-quad/intro.mp4",
+        "poster": "/images/work/rio-quad/hero.jpg"
+      },
+      {
+        "type": "section",
+        "title": "Brand"
+      },
+      {
+        "type": "text",
+        "title": "A mark that reads at speed",
+        "body": "The logo sits on hot orange (#FF2B00) with a sharp white glyph. It has to work on a phone screen, a whip flag, and a dusty bumper. We kept the mark simple so it still lands when the light is harsh and the frame is moving."
+      },
+      {
+        "type": "double",
+        "image1": "/images/work/rio-quad/logo.svg",
+        "image2": "/images/work/rio-quad/logo-mark.svg"
+      },
+      {
+        "type": "section",
+        "title": "Four-quad"
+      },
+      {
+        "type": "text",
+        "body": "The four-quad grid is the house layout for Rio: beach golden hour, mixed fleet on the shore, ridge line over the bay, and the riverbed group shot. One glance, full story."
+      },
+      {
+        "type": "grid2x2",
+        "topLeft": "/images/work/rio-quad/shot-01.jpg",
+        "topRight": "/images/work/rio-quad/shot-02.jpg",
+        "bottomLeft": "/images/work/rio-quad/shot-06.jpg",
+        "bottomRight": "/images/work/rio-quad/shot-08.jpg"
+      },
+      {
+        "type": "section",
+        "title": "On the coast"
+      },
+      {
+        "type": "text",
+        "body": "Buggies on wet sand at sunset. Quads lined up above the fishing boats. Helmets on, flags up. The photos keep the trip honest: salt air, tire tracks, and that late light Morocco does well."
+      },
+      {
+        "type": "double",
+        "image1": "/images/work/rio-quad/shot-03.jpg",
+        "image2": "/images/work/rio-quad/shot-04.jpg"
+      },
+      {
+        "type": "double",
+        "image1": "/images/work/rio-quad/shot-05.jpg",
+        "image2": "/images/work/rio-quad/shot-07.jpg"
+      },
+      {
+        "type": "video",
+        "src": "/videos/rio-quad/clip-01.mp4",
+        "poster": "/images/work/rio-quad/poster-clip-01.jpg"
+      },
+      {
+        "type": "section",
+        "title": "Inland"
+      },
+      {
+        "type": "text",
+        "body": "Away from the surf, the dry riverbeds open up. Bigger groups, rocky ground, arms out for the camera. Same energy, different terrain."
+      },
+      {
+        "type": "double",
+        "image1": "/images/work/rio-quad/shot-09.jpg",
+        "image2": "/images/work/rio-quad/shot-10.jpg"
+      },
+      {
+        "type": "double",
+        "image1": "/images/work/rio-quad/shot-11.jpg",
+        "image2": "/images/work/rio-quad/shot-12.jpg"
+      },
+      {
+        "type": "quote",
+        "quote": "You feel the trip before you book it. That was the brief, and the film plus the four-quad grid nail it.",
+        "author": "Rio Quad",
+        "authorTitle": "Founders"
+      }
+    ]
+  }
+]

@@ -1,0 +1,693 @@
+{
+  "testimonials": [
+    {
+      "name": "Islam",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/islam.jpg",
+      "text": "Nous l'avons fait 2 fois. Et ce n'est jamais assez. Guide super, ambiance parfaite et le parcours génial.\nJe recommande +++++",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-islam-01.jpg"
+      ]
+    },
+    {
+      "name": "Zakariae Aboulghit",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/zakariae-aboulghit.jpg",
+      "text": "Très belle expérience je le recommande 🙌🙏👏🏻",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-zakariae-aboulghit-01.jpg",
+        "/images/work/rio-quad/reviews/customer-zakariae-aboulghit-02.jpg"
+      ]
+    },
+    {
+      "name": "Massuma Hassanzada",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/massuma-hassanzada.jpg",
+      "text": "J’ai adorée, une super activité à faire, je recommande fortement. Et le personnel super sympa",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-massuma-hassanzada-01.jpg"
+      ]
+    },
+    {
+      "name": "Hassan Ahbary",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/hassan-ahbary.svg",
+      "text": "Magnifique temps de pause pour prise de photo le paysage magnifique sa vaut vraiment le détour 🤩",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-hassan-ahbary-01.jpg"
+      ]
+    },
+    {
+      "name": "Monsif Soufiane",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/monsif-soufiane.jpg",
+      "text": "Très belle expérience avec Rio Quad Agadir !\nOrganisation au top, équipe professionnelle et accueillante. Le parcours est magnifique entre dunes et plage, avec de super sensations.\nJe recommande vivement 👍\nMention spéciale pour le guide, toujours attentif,",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Mokhless Ms",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/mokhless-ms.jpg",
+      "text": "Excellent service Hafid meilleur moniteur guide dans le couchez soleil, rapport qualité prix parfait",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-mokhless-ms-01.jpg"
+      ]
+    },
+    {
+      "name": "Nicolas Scarantino",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/nicolas-scarantino.jpg",
+      "text": "Équipe sincèrement gentille et attentionnée.\nTout a éte fait pour que le moment soit inoubliable et ils ont réussi!\nLe parcours est varié et complet, passage sur la plage et dans la vallée du Paradis, avec une collation servie avec le sourire chez l'habitant, au calme.\nMerci pour votre accueil chaleureux",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-nicolas-scarantino-01.jpg",
+        "/images/work/rio-quad/reviews/customer-nicolas-scarantino-02.jpg"
+      ]
+    },
+    {
+      "name": "Alexandre POGGIOLI",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/alexandre-poggioli.jpg",
+      "text": "Super expérience, la balade d’1h permet de faire un grand parcours et de passer à travers différents paysages. Le matériel est bien et l’accueil est chaleureux et la prise en charge est parfaite ! Je recommande\nMerci encore.",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Joannie Tisseau",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/joannie-tisseau.jpg",
+      "text": "Super expérience, guide au top ! Merci, location quad 200dh l'heure, très raisonnable !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-joannie-tisseau-01.jpg"
+      ]
+    },
+    {
+      "name": "tony Voyau",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/tony-voyau.jpg",
+      "text": "Superbe expérience pour notre famille. Balade de plus de 2h30 en quad , pour commencer sur la plage puis en grande partie dans les montagnes où les paysages étaient grandioses. Guide sympathique. Bon rapport qualité prix.",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Mehdi Benramdane",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/mehdi-benramdane.jpg",
+      "text": "Magnifique expérience, très professionnel, nous avons passé un super moment.\nPris en charge au top, nous reviendrons !!",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Laura Lelaidier",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/laura-lelaidier.svg",
+      "text": "Belle balade plage au coucher du soleil\nPersonne très gentil\nOn recommande 👍🙂\nMerci",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-laura-lelaidier-01.jpg"
+      ]
+    },
+    {
+      "name": "Lea Aboud",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/lea-aboud.svg",
+      "text": "Étant une famille d’origine marocaine venu par pur hasard nous avons passé un moment exceptionnel lors de cette sortie en buggy.\nLes paysages étaient à couper le souffle et la sensation de liberté en roulant à travers les sentiers était unique.\nL'équipe était super accueillante, professionnelle et très bien préparée pour assurer notre sécurité tout au long de l'aventure.\nUn grand merci à Aziz!!!\nUne expérience à ne pas manquer, à faire entre amis ou en famille pour des souvenirs mémorables !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-lea-aboud-01.jpg"
+      ]
+    },
+    {
+      "name": "Emma Laurent",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/emma-laurent.svg",
+      "text": "Je suis venue tester l’expérience et j’ai beaucoup aimé ils sont très gentils et à l’écoute , je recommande!;)",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-emma-laurent-01.jpg",
+        "/images/work/rio-quad/reviews/customer-emma-laurent-02.jpg",
+        "/images/work/rio-quad/reviews/customer-emma-laurent-03.jpg"
+      ]
+    },
+    {
+      "name": "Hamza El Hanif",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/hamza-el-hanif.svg",
+      "text": "Activité très sympa,  à faire en famille.  Prix abordables pour le quad et le cheval.  Promenades en bord de plage,  guide très  attentif au groupe. Recommandé vivement !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-hamza-el-hanif-01.jpg",
+        "/images/work/rio-quad/reviews/customer-hamza-el-hanif-02.jpg"
+      ]
+    },
+    {
+      "name": "Yuzuha simp",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/yuzuha-simp.jpg",
+      "text": "Incroyable, le circuit était vraiment beau et le personnel sympathique (le moniteur Samir nous a pris plein de photos), a refaire InshaAllah !!",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-yuzuha-simp-01.jpg",
+        "/images/work/rio-quad/reviews/customer-yuzuha-simp-02.jpg",
+        "/images/work/rio-quad/reviews/customer-yuzuha-simp-03.jpg"
+      ]
+    },
+    {
+      "name": "yannick david",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/yannick-david.jpg",
+      "text": "Super expérience, équipe sympa et professionnels sérieux !!! Je recommande fortement !!!\nYannick David",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-yannick-david-01.jpg",
+        "/images/work/rio-quad/reviews/customer-yannick-david-02.jpg",
+        "/images/work/rio-quad/reviews/customer-yannick-david-03.jpg",
+        "/images/work/rio-quad/reviews/customer-yannick-david-04.jpg",
+        "/images/work/rio-quad/reviews/customer-yannick-david-05.jpg"
+      ]
+    },
+    {
+      "name": "Abdelhakim BAKRIM",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/abdelhakim-bakrim.jpg",
+      "text": "Bon matériels, équipe de professionnels et très bon rapport qualité-prix\nUne très bonne expérience à ne pas rater",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-abdelhakim-bakrim-01.jpg",
+        "/images/work/rio-quad/reviews/customer-abdelhakim-bakrim-02.jpg",
+        "/images/work/rio-quad/reviews/customer-abdelhakim-bakrim-03.jpg"
+      ]
+    },
+    {
+      "name": "Fréd Queloz",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/fr-d-queloz.jpg",
+      "text": "Superbe expérience de quad sur le sable en bord de mer. Je recommande vivement. Quad en très bon état et guide super sympa.",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-fr-d-queloz-01.jpg",
+        "/images/work/rio-quad/reviews/customer-fr-d-queloz-02.jpg"
+      ]
+    },
+    {
+      "name": "Ayat Taz",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/ayat-taz.jpg",
+      "text": "C'était une expérience formidable avec une équipe professionnelle et très sympathique. Ce ne sera pas la dernière fois.\nMerci beaucoup 🙏",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-ayat-taz-01.jpg",
+        "/images/work/rio-quad/reviews/customer-ayat-taz-02.jpg"
+      ]
+    },
+    {
+      "name": "Ghizlan Berrak",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/ghizlan-berrak.jpg",
+      "text": "Très belle expérience et staff a la hauteur je recommande vivement",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-ghizlan-berrak-01.jpg",
+        "/images/work/rio-quad/reviews/customer-ghizlan-berrak-02.jpg",
+        "/images/work/rio-quad/reviews/customer-ghizlan-berrak-03.jpg"
+      ]
+    },
+    {
+      "name": "Ben Ocean's",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/ben-ocean-s.jpg",
+      "text": "Excellent 👌  Le guide est aux petits soins avec nous, videos en direct, pauses photos inclus dans la sortie !  Superbe sortie quad entre chemins, plage et dunes !! Les enfants on adorés et moi aussi. Très bon accueil, je recommande fortement c’est un pure Kiff !! (Quad puissants mais très accessible pour débutants et plus expérimentés) 😉",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-ben-ocean-s-01.jpg",
+        "/images/work/rio-quad/reviews/customer-ben-ocean-s-02.jpg",
+        "/images/work/rio-quad/reviews/customer-ben-ocean-s-03.jpg"
+      ]
+    },
+    {
+      "name": "Maeva Guiral",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/maeva-guiral.jpg",
+      "text": "Le personnel est très professionnel. Les balades au bord de la plage sont magnifiques. Le prix est vraiment abordable, rien à dire tout est parfait, je recommande",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Myriam",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/myriam.jpg",
+      "text": "Magnifique balade d’une heure avec plusieurs parcours sable près de la mer, circuit avec virage, et chemin asphalte.  Plus",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-myriam-01.jpg"
+      ]
+    },
+    {
+      "name": "AMINE SOUBARI",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/amine-soubari.jpg",
+      "text": "Incroyable tour en buggy le personnel est aimable surtout abdelaadi qui nous a bien accompagné pendant notre trajet",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Ruwinka Kariyawasam H.",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/ruwinka-kariyawasam-h.jpg",
+      "text": "Personnel très professionnel et très sympa !\n\nNous avons passés un agréable moment avec mon mari.  Plus",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Joh P",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/joh-p.jpg",
+      "text": "Merci à l'accompagnateur qui a été cool, il s'assurait pendant tout le trajet que nous soyons là ou que nous ayons besoin d'aide. Il a pris le temps de nous prendre en photo, de faire de vidéos. Franchement au Top je vous recommande à 100%",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Hajar",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/hajar.jpg",
+      "text": "Tres bonne experience, le guide est tres a l’ecoute. Je recommande !",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "flavie guittard",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/flavie-guittard.jpg",
+      "text": "Expérience parfaite avec un personnel hyper agréable\nJe recommande\nBelle balade pour prix plus que correct",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-flavie-guittard-01.jpg",
+        "/images/work/rio-quad/reviews/customer-flavie-guittard-02.jpg",
+        "/images/work/rio-quad/reviews/customer-flavie-guittard-03.jpg"
+      ]
+    },
+    {
+      "name": "Romane",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/romane.jpg",
+      "text": "Je recommande ! Hafid est une belle personne, merci. 😊",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-romane-01.jpg"
+      ]
+    },
+    {
+      "name": "Meriem Rey",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/meriem-rey.jpg",
+      "text": "Personnel très accueillant, souriant et très professionnel. Je recommande vivement !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-meriem-rey-01.jpg"
+      ]
+    },
+    {
+      "name": "Najoua EL HARAB",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/najoua-el-harab.jpg",
+      "text": "Top si vous cherchez un circuit varié de le plage à la montagne ! Nous étions 4 moi mon conjoint et mes 2 enfants nous étions 2 par quad nous avons adoré vous pouvez y aller les yeux fermés !!",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-najoua-el-harab-01.jpg",
+        "/images/work/rio-quad/reviews/customer-najoua-el-harab-02.jpg"
+      ]
+    },
+    {
+      "name": "Ethan",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/ethan.svg",
+      "text": "Première expérience en quad, l’équipe est géniale, professionnelle et surtout très attentionnée. Je me suis régalée! La balade est splendide et variée! Un petit goûté typique et très accueillant! Merci encore à vous et à bientôt!",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-ethan-01.jpg"
+      ]
+    },
+    {
+      "name": "Boujeddaine Manal",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/boujeddaine-manal.jpg",
+      "text": "J’ai vraiment profité bien est une excellente journée merci à toutes l’équipe ❤️❤️❤️",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Honorine Bonnin",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/honorine-bonnin.svg",
+      "text": "Superbe expérience dans cette boîte à échelle humaine. Nous avons profité d'une promenade en quad en toute sécurité grâce au professionnalisme de l'équipe, qui s'est montrée sympathique et conciliante. Un grand merci !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-honorine-bonnin-01.jpg"
+      ]
+    },
+    {
+      "name": "Lakhdar Mohamed",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/lakhdar-mohamed.svg",
+      "text": "Super experience, accessible pour tous",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Quentin Bof",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/quentin-bof.jpg",
+      "text": "Superbe expérience!\nLes guides sont pro et très sympas\nLe cadre est idyllique\nJe recommande sans hésitation!",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-quentin-bof-01.jpg"
+      ]
+    },
+    {
+      "name": "Jamal Ait Oumghar",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/jamal-ait-oumghar.jpg",
+      "text": "Matériels entretenus et sécurité assuré, acquisition de 2 nouveaux buggy, personnels accueillants et aimables.\nJe recommande RIO QUAD pour une sortie familliale même les enfants peuvent piloter car la balade se fait en bord de plage pas fréquenté et sur piste.",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-jamal-ait-oumghar-01.jpg",
+        "/images/work/rio-quad/reviews/customer-jamal-ait-oumghar-02.jpg"
+      ]
+    },
+    {
+      "name": "Narjess Aziz",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/narjess-aziz.jpg",
+      "text": "C’était une très belle expérience, un très bon service . Merci à outhmane ✅",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Yanis ykz",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/yanis-ykz.jpg",
+      "text": "Ma femme et moi avons choisi ce moment quad grâce à l’hospitalité du gérant et tout était parfait ! Pour ceux qui recherchent un peu d’adrénaline il ya même un bon 15/20 minutes de tour libre pour vous amuser sur plage 🙈",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Lina",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/lina.jpg",
+      "text": "super expérience belle balade personnel accueillant on a super bien pu profiter",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Cabinet d'orthoptie",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/cabinet-d-orthoptie.jpg",
+      "text": "Belle expérience , a essayer , Mohammed est un homme très agréable , et a l’écoute , agréable après midi 👍",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Romuald PARZYSZ",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/romuald-parzysz.jpg",
+      "text": "Belle expérience avec les buggys en famille.\nGuide au top\nBalade sur la plage et dans les oueds.",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-romuald-parzysz-01.jpg",
+        "/images/work/rio-quad/reviews/customer-romuald-parzysz-02.jpg"
+      ]
+    },
+    {
+      "name": "Anas EL Andaloussi",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/anas-el-andaloussi.jpg",
+      "text": "Super expérience avec Rio Quad ! Accueil chaleureux, matériel en bon état et balades géniales. Je recommande à 100%. À refaire !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-anas-el-andaloussi-01.jpg"
+      ]
+    },
+    {
+      "name": "Kawtar Fikri",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/kawtar-fikri.jpg",
+      "text": "Superbe expérience on a passé une après-midi géniale j’adooooooreee",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Deli Faris",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/deli-faris.jpg",
+      "text": "Nous avons passé une après-midi incroyable rempli de souvenir  nous avons étais bien reçu par l'équipe  bien conseillé  et surtout à l'écoute de nos attentes très bon 😁🙏♥️accueil vive le Maroc 🇲🇦",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Nisrine",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/nisrine.jpg",
+      "text": "super société très sérieux je vous recommande a 200% à venir voir à tamrat sté rio quad. ❤️❤️❤️❤️❤️❤️",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-nisrine-01.jpg",
+        "/images/work/rio-quad/reviews/customer-nisrine-02.jpg"
+      ]
+    },
+    {
+      "name": "Hanane Elmrabet",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/hanane-elmrabet.svg",
+      "text": "Une expérience mémorable ! Toute l’équipe est aux petits soins et l’ambiance est conviviale. Mes cousines et moi avons vraiment apprécié cette escapade, entre panoramas à couper le souffle et arrêts réguliers pour immortaliser les plus beaux coins. Un grand oui pour cette activité !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-hanane-elmrabet-01.jpg"
+      ]
+    },
+    {
+      "name": "sayah salma",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/sayah-salma.jpg",
+      "text": "Super expérience de quad ! Accueil chaleureux, guides professionnels, et parcours incroyable. Merci à l’équipe pour ce moment inoubliable. Je recommande vivement !",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-sayah-salma-01.jpg"
+      ]
+    },
+    {
+      "name": "Mustapha El Kaddouri",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/mustapha-el-kaddouri.jpg",
+      "text": "Super expérience et les guides tip top 👍🏼",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Cassandre Largeaud",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/cassandre-largeaud.jpg",
+      "text": "Super expérience bien accueillant et prend de belle photo souvenir avec votre téléphone",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-cassandre-largeaud-01.jpg"
+      ]
+    },
+    {
+      "name": "Dutertry Julia",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/dutertry-julia.jpg",
+      "text": "Superbe balade au bord de mer avec coucher de soleil , le personnel très accueillant vraiment gentil . Les engins sont très propre et bon état . Je recommande vivement super expérience ++++",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "aicha kadar",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/aicha-kadar.jpg",
+      "text": "“Quelle journée incroyable en quad ! Des sensations fortes, des paysages à couper le souffle, et une bonne dose d’adrénaline. Entre les chemins boueux, les montées techniques et les fous rires entre amis, c’était une aventure mémorable. Un grand merci à toute l’équipe pour l’organisation et la sécurité. Vivement la prochaine sortie",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Delphine Elleboudt",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/delphine-elleboudt.jpg",
+      "text": "Magnifique parcours varié entre montagne et mer avec de très beaux paysages. Chouette sortie",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-delphine-elleboudt-01.jpg",
+        "/images/work/rio-quad/reviews/customer-delphine-elleboudt-02.jpg"
+      ]
+    },
+    {
+      "name": "N B",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/n-b.jpg",
+      "text": "Super balade en bord de plage avec couché de soleil. Super accompagnement, navette si nécessaire. Les gars sont super sympas, je recommande 👍",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "tamzit hayat",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/tamzit-hayat.jpg",
+      "text": "Très bon service avec une très belle expérience",
+      "rating": 5,
+      "photos": []
+    },
+    {
+      "name": "Marwa Amakhir",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/marwa-amakhir.jpg",
+      "text": "Ce lieu est magnifique c’est incroyable pour  20€ c’est incroyable",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-marwa-amakhir-01.jpg"
+      ]
+    },
+    {
+      "name": "Wassim Zaanoune",
+      "title": "Google review · Agadir",
+      "image": "/images/work/rio-quad/avatars/wassim-zaanoune.jpg",
+      "text": "Excellent service professionnel trop sympa une ambiance très agréable à recommander fort\nMerci beaucoup 🤍",
+      "rating": 5,
+      "photos": [
+        "/images/work/rio-quad/reviews/customer-wassim-zaanoune-01.jpg"
+      ]
+    }
+  ],
+  "guestPhotos": [
+    "/images/work/rio-quad/reviews/guest-01.jpg",
+    "/images/work/rio-quad/reviews/guest-02.jpg",
+    "/images/work/rio-quad/reviews/guest-03.jpg",
+    "/images/work/rio-quad/reviews/guest-04.jpg",
+    "/images/work/rio-quad/reviews/guest-05.jpg",
+    "/images/work/rio-quad/reviews/guest-06.jpg",
+    "/images/work/rio-quad/reviews/guest-07.jpg",
+    "/images/work/rio-quad/reviews/guest-08.jpg",
+    "/images/work/rio-quad/reviews/guest-09.jpg",
+    "/images/work/rio-quad/reviews/guest-10.jpg",
+    "/images/work/rio-quad/reviews/guest-100.jpg",
+    "/images/work/rio-quad/reviews/guest-101.jpg",
+    "/images/work/rio-quad/reviews/guest-102.jpg",
+    "/images/work/rio-quad/reviews/guest-103.jpg",
+    "/images/work/rio-quad/reviews/guest-104.jpg",
+    "/images/work/rio-quad/reviews/guest-105.jpg",
+    "/images/work/rio-quad/reviews/guest-106.jpg",
+    "/images/work/rio-quad/reviews/guest-107.jpg",
+    "/images/work/rio-quad/reviews/guest-108.jpg",
+    "/images/work/rio-quad/reviews/guest-109.jpg",
+    "/images/work/rio-quad/reviews/guest-11.jpg",
+    "/images/work/rio-quad/reviews/guest-110.jpg",
+    "/images/work/rio-quad/reviews/guest-111.jpg",
+    "/images/work/rio-quad/reviews/guest-112.jpg",
+    "/images/work/rio-quad/reviews/guest-113.jpg",
+    "/images/work/rio-quad/reviews/guest-114.jpg",
+    "/images/work/rio-quad/reviews/guest-115.jpg",
+    "/images/work/rio-quad/reviews/guest-116.jpg",
+    "/images/work/rio-quad/reviews/guest-117.jpg",
+    "/images/work/rio-quad/reviews/guest-118.jpg",
+    "/images/work/rio-quad/reviews/guest-119.jpg",
+    "/images/work/rio-quad/reviews/guest-120.jpg",
+    "/images/work/rio-quad/reviews/guest-121.jpg",
+    "/images/work/rio-quad/reviews/guest-122.jpg",
+    "/images/work/rio-quad/reviews/guest-21.jpg",
+    "/images/work/rio-quad/reviews/guest-22.jpg",
+    "/images/work/rio-quad/reviews/guest-23.jpg",
+    "/images/work/rio-quad/reviews/guest-24.jpg",
+    "/images/work/rio-quad/reviews/guest-25.jpg",
+    "/images/work/rio-quad/reviews/guest-26.jpg",
+    "/images/work/rio-quad/reviews/guest-27.jpg",
+    "/images/work/rio-quad/reviews/guest-28.jpg",
+    "/images/work/rio-quad/reviews/guest-29.jpg",
+    "/images/work/rio-quad/reviews/guest-30.jpg",
+    "/images/work/rio-quad/reviews/guest-31.jpg",
+    "/images/work/rio-quad/reviews/guest-32.jpg",
+    "/images/work/rio-quad/reviews/guest-33.jpg",
+    "/images/work/rio-quad/reviews/guest-34.jpg",
+    "/images/work/rio-quad/reviews/guest-35.jpg",
+    "/images/work/rio-quad/reviews/guest-36.jpg",
+    "/images/work/rio-quad/reviews/guest-37.jpg",
+    "/images/work/rio-quad/reviews/guest-38.jpg",
+    "/images/work/rio-quad/reviews/guest-39.jpg",
+    "/images/work/rio-quad/reviews/guest-40.jpg",
+    "/images/work/rio-quad/reviews/guest-41.jpg",
+    "/images/work/rio-quad/reviews/guest-42.jpg",
+    "/images/work/rio-quad/reviews/guest-43.jpg",
+    "/images/work/rio-quad/reviews/guest-44.jpg",
+    "/images/work/rio-quad/reviews/guest-45.jpg",
+    "/images/work/rio-quad/reviews/guest-46.jpg",
+    "/images/work/rio-quad/reviews/guest-47.jpg",
+    "/images/work/rio-quad/reviews/guest-48.jpg",
+    "/images/work/rio-quad/reviews/guest-49.jpg",
+    "/images/work/rio-quad/reviews/customer-abdelhakim-bakrim-01.jpg",
+    "/images/work/rio-quad/reviews/customer-abdelhakim-bakrim-02.jpg",
+    "/images/work/rio-quad/reviews/customer-abdelhakim-bakrim-03.jpg",
+    "/images/work/rio-quad/reviews/customer-anas-el-andaloussi-01.jpg",
+    "/images/work/rio-quad/reviews/customer-ayat-taz-01.jpg",
+    "/images/work/rio-quad/reviews/customer-ayat-taz-02.jpg",
+    "/images/work/rio-quad/reviews/customer-ben-ocean-s-01.jpg",
+    "/images/work/rio-quad/reviews/customer-ben-ocean-s-02.jpg",
+    "/images/work/rio-quad/reviews/customer-ben-ocean-s-03.jpg",
+    "/images/work/rio-quad/reviews/customer-cassandre-largeaud-01.jpg",
+    "/images/work/rio-quad/reviews/customer-delphine-elleboudt-01.jpg",
+    "/images/work/rio-quad/reviews/customer-delphine-elleboudt-02.jpg",
+    "/images/work/rio-quad/reviews/customer-emma-laurent-01.jpg",
+    "/images/work/rio-quad/reviews/customer-emma-laurent-02.jpg",
+    "/images/work/rio-quad/reviews/customer-emma-laurent-03.jpg",
+    "/images/work/rio-quad/reviews/customer-ethan-01.jpg",
+    "/images/work/rio-quad/reviews/customer-flavie-guittard-01.jpg",
+    "/images/work/rio-quad/reviews/customer-flavie-guittard-02.jpg",
+    "/images/work/rio-quad/reviews/customer-flavie-guittard-03.jpg",
+    "/images/work/rio-quad/reviews/customer-fr-d-queloz-01.jpg",
+    "/images/work/rio-quad/reviews/customer-fr-d-queloz-02.jpg",
+    "/images/work/rio-quad/reviews/customer-ghizlan-berrak-01.jpg",
+    "/images/work/rio-quad/reviews/customer-ghizlan-berrak-02.jpg",
+    "/images/work/rio-quad/reviews/customer-ghizlan-berrak-03.jpg",
+    "/images/work/rio-quad/reviews/customer-hamza-el-hanif-01.jpg",
+    "/images/work/rio-quad/reviews/customer-hamza-el-hanif-02.jpg",
+    "/images/work/rio-quad/reviews/customer-hanane-elmrabet-01.jpg",
+    "/images/work/rio-quad/reviews/customer-hassan-ahbary-01.jpg",
+    "/images/work/rio-quad/reviews/customer-honorine-bonnin-01.jpg",
+    "/images/work/rio-quad/reviews/customer-islam-01.jpg",
+    "/images/work/rio-quad/reviews/customer-jamal-ait-oumghar-01.jpg",
+    "/images/work/rio-quad/reviews/customer-jamal-ait-oumghar-02.jpg",
+    "/images/work/rio-quad/reviews/customer-joannie-tisseau-01.jpg",
+    "/images/work/rio-quad/reviews/customer-laura-lelaidier-01.jpg",
+    "/images/work/rio-quad/reviews/customer-lea-aboud-01.jpg",
+    "/images/work/rio-quad/reviews/customer-marwa-amakhir-01.jpg",
+    "/images/work/rio-quad/reviews/customer-massuma-hassanzada-01.jpg",
+    "/images/work/rio-quad/reviews/customer-meriem-rey-01.jpg",
+    "/images/work/rio-quad/reviews/customer-mokhless-ms-01.jpg",
+    "/images/work/rio-quad/reviews/customer-myriam-01.jpg",
+    "/images/work/rio-quad/reviews/customer-najoua-el-harab-01.jpg",
+    "/images/work/rio-quad/reviews/customer-najoua-el-harab-02.jpg",
+    "/images/work/rio-quad/reviews/customer-nicolas-scarantino-01.jpg",
+    "/images/work/rio-quad/reviews/customer-nicolas-scarantino-02.jpg",
+    "/images/work/rio-quad/reviews/customer-nisrine-01.jpg",
+    "/images/work/rio-quad/reviews/customer-nisrine-02.jpg",
+    "/images/work/rio-quad/reviews/customer-quentin-bof-01.jpg",
+    "/images/work/rio-quad/reviews/customer-romane-01.jpg",
+    "/images/work/rio-quad/reviews/customer-romuald-parzysz-01.jpg",
+    "/images/work/rio-quad/reviews/customer-romuald-parzysz-02.jpg",
+    "/images/work/rio-quad/reviews/customer-sayah-salma-01.jpg",
+    "/images/work/rio-quad/reviews/customer-wassim-zaanoune-01.jpg",
+    "/images/work/rio-quad/reviews/customer-yannick-david-01.jpg",
+    "/images/work/rio-quad/reviews/customer-yannick-david-02.jpg",
+    "/images/work/rio-quad/reviews/customer-yannick-david-03.jpg",
+    "/images/work/rio-quad/reviews/customer-yannick-david-04.jpg",
+    "/images/work/rio-quad/reviews/customer-yannick-david-05.jpg",
+    "/images/work/rio-quad/reviews/customer-yuzuha-simp-01.jpg",
+    "/images/work/rio-quad/reviews/customer-yuzuha-simp-02.jpg",
+    "/images/work/rio-quad/reviews/customer-yuzuha-simp-03.jpg",
+    "/images/work/rio-quad/reviews/customer-zakariae-aboulghit-01.jpg",
+    "/images/work/rio-quad/reviews/customer-zakariae-aboulghit-02.jpg"
+  ]
+}

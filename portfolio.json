@@ -1,0 +1,284 @@
+[
+  {
+    "src": "claude-workflows-empty-state",
+    "alt": "OmniSocials workflows empty state \u2014 automate content reposting, built with Claude",
+    "title": "Workflows Empty State",
+    "tags": [
+      "Claude components"
+    ],
+    "type": "component",
+    "component": "WorkflowsEmptyState"
+  },
+  {
+    "src": "claude-chips-chat",
+    "alt": "Chips.gg live chat \u2014 built with Claude",
+    "title": "Chips.gg Live Chat",
+    "tags": [
+      "Claude components"
+    ],
+    "type": "component",
+    "component": "ChipsChatPreview"
+  },
+  {
+    "src": "claude-getstarted-checklist",
+    "alt": "Get Started onboarding checklist \u2014 built with Claude",
+    "title": "Get Started Checklist",
+    "tags": [
+      "Claude components"
+    ],
+    "type": "component",
+    "component": "GetStartedChecklist"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/omnisocials-workflows-sidebar.mp4",
+    "alt": "omnisocials workflows empty state and sidebar",
+    "title": "OmniSocials Workflows Empty state & Sidebar",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-omnisocials.png",
+    "alt": "omnisocials create post",
+    "title": "OmniSocials Create Post",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/omnisocials-claude-integration.mp4",
+    "alt": "omnisocials claude integration",
+    "title": "OmniSocials Claude Integration",
+    "tags": [
+      "Motion graphics"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/omnisocials-launch.mp4",
+    "alt": "omnisocials launch video",
+    "title": "OmniSocials - Launch Video",
+    "tags": [
+      "Motion graphics"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/skinswap-reel-overlay-ad.mp4",
+    "alt": "skinswap reel overlay ad animation",
+    "title": "Skinswap Reel Overlay Ad Animation",
+    "tags": [
+      "Motion graphics"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/omnisocials-animation.mp4",
+    "alt": "omnisocials animation",
+    "title": "OmniSocials Animation",
+    "tags": [
+      "Motion graphics"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-coolify-ui.png",
+    "alt": "coolify ui",
+    "title": "Coolify Dashboard",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-coolify-website.png",
+    "alt": "coolify ui",
+    "title": "Coolify Website",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-testimonial-website.png",
+    "alt": "Testimonial.to Website",
+    "title": "Testimonial.to Website",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-testimonial-illustrations.png",
+    "alt": "Testimonial.to Section",
+    "title": "Testimonial.to Section",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-skinswap-affiliate-page.png",
+    "alt": "skinswap affiliate page",
+    "title": "Skinswap Affiliate Page",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-skinswap-pickems.png",
+    "alt": "skinswap pickems",
+    "title": "Skinswap Pickems",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-evercard-sign-in.png",
+    "alt": "evercard sign in",
+    "title": "Evercard Sign In",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-evercard-dashboard.png",
+    "alt": "evercard Collateral Dashboard",
+    "title": "Evercard Collateral Dashboard",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-numer-ai.png",
+    "alt": "numer.ai leaderboard",
+    "title": "Numer.ai Leaderboard",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-chips-gg-original-thumbnails.png",
+    "alt": "chips.gg original thumbnails",
+    "title": "Chips.gg Original Thumbnails",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-therapist-website.png",
+    "alt": "therapist website",
+    "title": "Therapist Website",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/omnisocials-post-now.mp4",
+    "alt": "post to platform",
+    "title": "OmniSocials",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/telegram-nodes-onboarding.mp4",
+    "alt": "telegram demo",
+    "title": "Telegram Nodes Onboarding",
+    "tags": [
+      "App design"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-telegram.png",
+    "alt": "telegram ios",
+    "title": "Telegram Nodes iOS App",
+    "tags": [
+      "App design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-telegram-android.png",
+    "alt": "telegram android",
+    "title": "Telegram Nodes Android App",
+    "tags": [
+      "App design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-apple-watch-sportbetting.png",
+    "alt": "Sportsbetting Apple Watch Notification",
+    "title": "Sportsbetting Apple Watch Notification",
+    "tags": [
+      "App design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-sports-betting.png",
+    "alt": "Gambling Promotion Challange and Free Spin Sheet",
+    "title": "Gambling Promotion Challange and Free Spin Sheet",
+    "tags": [
+      "App design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-omnisocials-ios-analytics.png",
+    "alt": "omnisocials ios analytics",
+    "title": "OmniSocials iOS Analytics",
+    "tags": [
+      "App design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-omnisocials-ios-calendar.png",
+    "alt": "omnisocials ios calendar",
+    "title": "OmniSocials iOS Calendar",
+    "tags": [
+      "App design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/new/item-myclusters.png",
+    "alt": "myclusters",
+    "title": "MyClusters iOS App",
+    "tags": [
+      "App design"
+    ],
+    "type": "image"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/keno-diamond-animation.webm",
+    "alt": "keno diamond animation",
+    "title": "Chips.gg",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "video"
+  },
+  {
+    "src": "https://cdn.robertligthart.com/file/robertligthart-assets/portfolio/wallet-animation.webm",
+    "alt": "wallet animation",
+    "title": "Propchain",
+    "tags": [
+      "Product & web design"
+    ],
+    "type": "video"
+  }
+]
