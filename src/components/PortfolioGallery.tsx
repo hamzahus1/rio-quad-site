@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 import {
@@ -39,25 +40,25 @@ function MediaCard({
   const imgY = useTransform(
     scrollYProgress,
     [0, 1],
-    reduce ? ["0%", "0%"] : ["10%", "-10%"],
+    reduce || index > 3 ? ["0%", "0%"] : ["8%", "-8%"],
   );
   const imgScale = useTransform(
     scrollYProgress,
     [0, 0.45, 1],
-    reduce ? [1, 1, 1] : [1.14, 1.04, 1.14],
+    reduce || index > 3 ? [1, 1, 1] : [1.08, 1.02, 1.08],
   );
 
   const reveal = reduce
     ? undefined
     : {
-        initial: { y: 28, opacity: 0, scale: 0.96, filter: "blur(10px)" },
-        whileInView: { y: 0, opacity: 1, scale: 1, filter: "blur(0px)" },
-        viewport: { once: true, amount: 0.18, margin: "0px 0px -40px 0px" },
+        initial: { y: 16, opacity: 0 },
+        whileInView: { y: 0, opacity: 1 },
+        viewport: { once: true, amount: 0.12, margin: "0px 0px -24px 0px" },
         transition: {
           type: "spring" as const,
-          stiffness: 260,
-          damping: 28,
-          delay: Math.min(index * 0.04, 0.28),
+          stiffness: 280,
+          damping: 30,
+          delay: Math.min(index * 0.03, 0.18),
         },
       };
 
@@ -68,41 +69,44 @@ function MediaCard({
         {...reveal}
         className={masonry ? "mb-3 break-inside-avoid md:mb-4" : ""}
       >
-        <PortfolioVideo item={item} autoPlay />
+        {/* Only the first video autoplays — big mobile win */}
+        <PortfolioVideo item={item} autoPlay={index === 0} />
       </motion.div>
     );
   }
 
+  const priority = index < 2;
   const inner = (
     <motion.div
       ref={ref}
       {...reveal}
-      whileHover={reduce ? undefined : { y: -3 }}
+      whileHover={reduce ? undefined : { y: -2 }}
       transition={{ type: "spring", stiffness: 360, damping: 28 }}
       className={`group relative overflow-hidden rounded-xl bg-gray-50 dark:bg-white/5 ${
         masonry ? "mb-3 break-inside-avoid md:mb-4" : ""
       }`}
+      style={{ contentVisibility: index > 4 ? "auto" : undefined }}
     >
-      <div className="relative overflow-hidden">
-        <motion.img
+      <motion.div
+        className="relative aspect-[4/5] w-full overflow-hidden sm:aspect-[3/4]"
+        style={{ y: imgY, scale: imgScale }}
+      >
+        <Image
           src={item.src}
           alt={item.alt}
-          style={{ y: imgY, scale: imgScale }}
-          className="h-auto w-full will-change-transform"
-          loading={index < 2 ? "eager" : "lazy"}
-          fetchPriority={index === 0 ? "high" : "auto"}
-          decoding="async"
-          sizes="(max-width: 1024px) 100vw, 62vw"
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 42vw"
+          quality={68}
+          priority={priority}
+          loading={priority ? "eager" : "lazy"}
+          className="object-cover"
         />
-      </div>
-      <motion.div
-        initial={false}
-        className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/35 to-transparent p-3 opacity-100 translate-y-0 transition-all duration-300 md:translate-y-3 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 md:p-4"
-      >
+      </motion.div>
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/35 to-transparent p-3 opacity-100 translate-y-0 transition-all duration-300 md:translate-y-3 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 md:p-4">
         <span className="text-[13px] font-medium text-white drop-shadow-md md:text-[14px]">
           {item.title}
         </span>
-      </motion.div>
+      </div>
     </motion.div>
   );
 
@@ -179,13 +183,12 @@ function ExperienceView() {
           {tf(t.experienceBody, { hours: site.hours })}
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
-          <Link
+          <a
             href="/book"
-            prefetch
             className="inline-flex h-[34px] items-center rounded-full bg-[#FF2B00] px-4 text-[13px] font-semibold text-white hover:bg-[#e52600]"
           >
             {t.bookTour}
-          </Link>
+          </a>
           <a
             href={site.googleLocationUrl}
             target="_blank"
