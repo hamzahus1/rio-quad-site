@@ -33,6 +33,9 @@ export function Sidebar() {
       <div className="flex flex-col gap-5 md:gap-6">
         <div className="flex flex-col gap-3 md:gap-4">
           <h1 className="text-[22px] font-semibold leading-[1.25] tracking-[-0.6px] text-[#111111] dark:text-white md:text-[24px] md:leading-8">
+            <span className="mb-2 block text-[12px] font-semibold uppercase tracking-[0.06em] text-[#FF2B00] md:text-[13px]">
+              {t.seoEyebrow}
+            </span>
             {t.headline}
           </h1>
           <p className="text-[15px] leading-[1.55] tracking-[-0.32px] text-[#6b6b6b] dark:text-white/55">

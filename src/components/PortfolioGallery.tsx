@@ -20,7 +20,6 @@ import {
 import { PortfolioVideo } from "./PortfolioVideo";
 import { HeaderControls } from "./HeaderControls";
 import { usePreferences } from "./PreferencesProvider";
-import { useBooking } from "./BookingModal";
 
 function MediaCard({
   item,
@@ -90,8 +89,10 @@ function MediaCard({
           alt={item.alt}
           style={{ y: imgY, scale: imgScale }}
           className="h-auto w-full will-change-transform"
-          loading="lazy"
+          loading={index < 2 ? "eager" : "lazy"}
+          fetchPriority={index === 0 ? "high" : "auto"}
           decoding="async"
+          sizes="(max-width: 1024px) 100vw, 62vw"
         />
       </div>
       <motion.div
@@ -162,7 +163,6 @@ function PhotosView() {
 
 function ExperienceView() {
   const { t, tf } = usePreferences();
-  const { openBooking } = useBooking();
   const steps = itinerarySteps.map((step, i) => ({
     n: i + 1,
     image: step.image,
@@ -179,13 +179,13 @@ function ExperienceView() {
           {tf(t.experienceBody, { hours: site.hours })}
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={openBooking}
+          <Link
+            href="/book"
+            prefetch
             className="inline-flex h-[34px] items-center rounded-full bg-[#FF2B00] px-4 text-[13px] font-semibold text-white hover:bg-[#e52600]"
           >
             {t.bookTour}
-          </button>
+          </Link>
           <a
             href={site.googleLocationUrl}
             target="_blank"

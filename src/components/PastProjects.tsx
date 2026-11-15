@@ -51,7 +51,7 @@ export function PastProjects() {
             >
               <button
                 type="button"
-                className="group flex w-full items-center gap-3 py-3 text-left"
+                className="group flex w-full items-center gap-3 py-3 text-start"
                 onMouseEnter={() => setHoverKey(item.key)}
                 onMouseLeave={() => setHoverKey(null)}
                 onFocus={() => setHoverKey(item.key)}

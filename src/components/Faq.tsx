@@ -23,7 +23,7 @@ export function Faq() {
             >
               <button
                 type="button"
-                className="flex w-full items-center justify-between py-3 text-left"
+                className="flex w-full items-center justify-between py-3 text-start"
                 onClick={() => setOpen(isOpen ? null : i)}
               >
                 <span className="pr-4 text-[14px] font-medium tracking-[-0.32px] text-[#1f1f1f] dark:text-white">

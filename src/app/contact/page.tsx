@@ -3,7 +3,10 @@ import { site } from "../../data/site";
 import { BackButton } from "../../components/BackButton";
 
 export const metadata: Metadata = {
-  title: "Contact · Rio Quad",
+  title: "Contact & WhatsApp Booking",
+  description:
+    "Contact Rio Quad in Agadir / Tamraght. Book quad or buggy tours on WhatsApp, call +212 629 51 63 70, or get directions to our base.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

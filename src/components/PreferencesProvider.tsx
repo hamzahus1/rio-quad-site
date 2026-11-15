@@ -4,9 +4,8 @@ import {
   createContext,
   useCallback,
   useContext,
-  useEffect,
   useMemo,
-  useState,
+  useSyncExternalStore,
   type ReactNode,
 } from "react";
 import {
@@ -36,6 +35,16 @@ const PreferencesContext = createContext<Preferences | null>(null);
 const LOCALE_KEY = "rio-locale";
 const THEME_KEY = "rio-theme";
 
+const localeListeners = new Set<() => void>();
+const themeListeners = new Set<() => void>();
+
+function emitLocale() {
+  localeListeners.forEach((l) => l());
+}
+function emitTheme() {
+  themeListeners.forEach((l) => l());
+}
+
 function applyTheme(theme: Theme) {
   const root = document.documentElement;
   root.classList.toggle("dark", theme === "dark");
@@ -49,49 +58,72 @@ function applyLocale(locale: Locale) {
   root.dir = meta?.dir ?? "ltr";
 }
 
-export function PreferencesProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>("en");
-  const [theme, setThemeState] = useState<Theme>("light");
+function readLocale(): Locale {
+  try {
+    const stored = localStorage.getItem(LOCALE_KEY);
+    if (isLocale(stored)) return stored;
+    const fromDom = document.documentElement.lang;
+    if (isLocale(fromDom)) return fromDom;
+    return detectBrowserLocale(
+      navigator.languages?.length ? navigator.languages : navigator.language,
+    );
+  } catch {
+    return "en";
+  }
+}
 
-  useEffect(() => {
-    const storedLocale = localStorage.getItem(LOCALE_KEY);
-    const storedTheme = localStorage.getItem(THEME_KEY) as Theme | null;
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const nextLocale = isLocale(storedLocale)
-      ? storedLocale
-      : detectBrowserLocale(navigator.languages?.length ? navigator.languages : navigator.language);
-    const nextTheme =
-      storedTheme === "light" || storedTheme === "dark"
-        ? storedTheme
-        : prefersDark
-          ? "dark"
-          : "light";
-    setLocaleState(nextLocale);
-    setThemeState(nextTheme);
-    applyTheme(nextTheme);
-    applyLocale(nextLocale);
-    if (!isLocale(storedLocale)) {
-      localStorage.setItem(LOCALE_KEY, nextLocale);
-    }
-  }, []);
+function readTheme(): Theme {
+  try {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === "light" || stored === "dark") return stored;
+    if (document.documentElement.classList.contains("dark")) return "dark";
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  } catch {
+    return "light";
+  }
+}
+
+function subscribeLocale(cb: () => void) {
+  localeListeners.add(cb);
+  return () => localeListeners.delete(cb);
+}
+
+function subscribeTheme(cb: () => void) {
+  themeListeners.add(cb);
+  return () => themeListeners.delete(cb);
+}
+
+export function PreferencesProvider({ children }: { children: ReactNode }) {
+  const locale = useSyncExternalStore<Locale>(
+    subscribeLocale,
+    readLocale,
+    () => "en",
+  );
+  const theme = useSyncExternalStore<Theme>(
+    subscribeTheme,
+    readTheme,
+    () => "light",
+  );
 
   const setLocale = useCallback((l: Locale) => {
-    setLocaleState(l);
     localStorage.setItem(LOCALE_KEY, l);
     applyLocale(l);
+    emitLocale();
   }, []);
 
   const setTheme = useCallback((t: Theme) => {
-    setThemeState(t);
     localStorage.setItem(THEME_KEY, t);
     applyTheme(t);
+    emitTheme();
   }, []);
 
   const toggleTheme = useCallback(() => {
     setTheme(theme === "dark" ? "light" : "dark");
   }, [setTheme, theme]);
 
-  const t: Messages = messages[locale];
+  const t: Messages = messages[locale] ?? messages.en;
 
   const value = useMemo(
     () => ({

@@ -4,9 +4,10 @@ import { caseStudies } from "../../lib/caseStudies";
 import { BackButton } from "../../components/BackButton";
 
 export const metadata: Metadata = {
-  title: "Work · OWWCO Studio",
+  title: "Photos & Tours",
   description:
-    "Case studies in product UX, interface design, and digital launches.",
+    "Rio Quad ride photos and tour stories from Agadir and Tamraght — beach, dunes, sunset quads and buggies.",
+  alternates: { canonical: "/work" },
 };
 
 export default function WorkIndexPage() {

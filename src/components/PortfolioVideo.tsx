@@ -39,12 +39,28 @@ export function PortfolioVideo({
     v.addEventListener("durationchange", onMeta);
     v.addEventListener("play", onPlay);
     v.addEventListener("pause", onPause);
-    if (autoPlay) void v.play().catch(() => setPlaying(false));
-    else {
+
+    let observer: IntersectionObserver | undefined;
+    if (autoPlay) {
+      // Only load/play when in view — big speed win on mobile
+      observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry?.isIntersecting) {
+            void v.play().catch(() => setPlaying(false));
+          } else {
+            v.pause();
+          }
+        },
+        { rootMargin: "120px", threshold: 0.15 },
+      );
+      observer.observe(v);
+    } else {
       v.pause();
       setPlaying(false);
     }
+
     return () => {
+      observer?.disconnect();
       v.pause();
       v.removeEventListener("timeupdate", onTime);
       v.removeEventListener("loadedmetadata", onMeta);
@@ -96,7 +112,7 @@ export function PortfolioVideo({
         muted
         loop
         playsInline
-        preload={autoPlay ? "auto" : "metadata"}
+        preload="none"
         className="h-auto w-full cursor-pointer object-cover"
         onClick={togglePlay}
       />

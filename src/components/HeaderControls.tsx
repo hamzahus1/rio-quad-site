@@ -60,7 +60,7 @@ export function HeaderControls() {
                       setLocale(l.code);
                       setOpen(false);
                     }}
-                    className={`flex w-full items-center justify-between gap-3 px-3.5 py-2 text-left text-[13px] transition-colors ${
+                    className={`flex w-full items-center justify-between gap-3 px-3.5 py-2 text-start text-[13px] transition-colors ${
                       active
                         ? "bg-gray-50 font-semibold text-[#111] dark:bg-white/10 dark:text-white"
                         : "text-[#444] hover:bg-gray-50 dark:text-white/70 dark:hover:bg-white/5"

@@ -56,10 +56,10 @@ type ExtraKey = (typeof EXTRA_KEYS)[number];
 const STEPS = 5;
 
 export function BookingProvider({ children }: { children: ReactNode }) {
-  const router = useRouter();
   const openBooking = useCallback(() => {
-    router.push("/book");
-  }, [router]);
+    // Hard nav — soft router.push feels like a dead click on Netlify
+    window.location.assign("/book");
+  }, []);
   const value = useMemo(() => ({ openBooking }), [openBooking]);
 
   return (
@@ -102,13 +102,13 @@ export function BookingPage() {
     const expLabel = b.experiences[experience];
     const extraLabels = extras.map((k) => b.extras[k]).join(", ") || "—";
     const msg = [
-      "Hi Rio Quad. I'd like to book a tour.",
-      `Name: ${name.trim()}`,
-      `People: ${people}`,
-      `Experience: ${expLabel}`,
-      `Include: ${extraLabels}`,
-      `Date: ${date}`,
-      ...(notes.trim() ? [`Notes: ${notes.trim()}`] : []),
+      b.waHello,
+      `${b.name}: ${name.trim()}`,
+      `${b.people}: ${people}`,
+      `${b.experience}: ${expLabel}`,
+      `${b.includes}: ${extraLabels}`,
+      `${b.date}: ${date}`,
+      ...(notes.trim() ? [`${b.notes}: ${notes.trim()}`] : []),
     ].join("\n");
     const url = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
     window.open(url, "_blank", "noopener,noreferrer");
@@ -250,7 +250,7 @@ export function BookingPage() {
                           key={key}
                           type="button"
                           onClick={() => setExperience(key)}
-                          className={`flex items-center gap-3 overflow-hidden rounded-2xl p-2 pe-4 text-left transition-colors ${
+                          className={`flex items-center gap-3 overflow-hidden rounded-2xl p-2 pe-4 text-start transition-colors ${
                             active
                               ? "bg-[#FF2B00] text-white"
                               : "bg-gray-50 text-[#111] dark:bg-white/5 dark:text-white"
@@ -282,7 +282,7 @@ export function BookingPage() {
                           key={key}
                           type="button"
                           onClick={() => toggleExtra(key)}
-                          className={`flex items-center justify-between rounded-2xl px-4 py-3.5 text-left text-[15px] font-medium transition-colors ${
+                          className={`flex items-center justify-between rounded-2xl px-4 py-3.5 text-start text-[15px] font-medium transition-colors ${
                             on
                               ? "bg-[#FF2B00]/10 text-[#111] ring-1 ring-[#FF2B00]/40 dark:bg-[#FF2B00]/15 dark:text-white"
                               : "bg-gray-50 text-[#111] dark:bg-white/5 dark:text-white"
